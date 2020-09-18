@@ -1,10 +1,10 @@
-public class ProdutosParaVenda(){
+public class ProdutosParaVenda{
 String código;
 int quantidade;
 double precoDeCompra;
 double precoDeVenda;
 }
-public class ProdutosEmEstoque(){
+public class ProdutosEmEstoque{
 String código;
 int quantidade;
 double precoDeCompra;
