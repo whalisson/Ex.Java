@@ -105,8 +105,8 @@ public class BancoApp {
 				String nome = (textField.getText());
 				String conta = (textField_1.getText());
 				ContaBancaria c1 = new ContaBancaria(nome, conta, saldo);
-				double saque = Double.parseDouble(textField_4.getText());
-				JOptionPane.showMessageDialog(btnDepositar, c1.depositar(saque));
+				double deposito = Double.parseDouble(textField_4.getText());
+				JOptionPane.showMessageDialog(btnDepositar, c1.depositar(deposito));
 			}
 		});
 		btnDepositar.setBounds(158, 101, 97, 25);
